@@ -1,0 +1,170 @@
+html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#logo{
+    width: 300px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#searchbar{
+   display: block;
+   margin: 0 auto;
+   border-radius: 10px;
+   border: 1px solid rgb(236,236,236);
+   background-color: white;
+   width: 450px;
+   height: 25px;
+}
+
+#searchbar:hover{
+    box-shadow: 0px 1px 0.5px 0.5px #dddddd;
+}
+
+.top-navbar ul{
+    font-family: sans-serif;
+    margin-left: -35px;
+}
+
+.top-leftnav{
+    display: flex;
+    flex-flow: row;
+    position: absolute;
+}
+
+.top-rightnav{
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+}
+
+.keyboard{
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5em;
+    margin-top: 0.1em;
+}
+
+.keyboard:hover{
+    cursor: pointer;
+    background-color: rgba(214, 208, 208, 0.3);
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(38, 177, 158);
+    border: 1px hidden;
+    border-radius: 50%;
+    color: white;
+    font-family: arial;
+}
+
+.profile:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-navbar a{
+    color: rgb(99, 99, 99);
+    display: block;
+    padding: 5px 10px;
+    font-size: 11px;
+}
+
+
+li{
+    list-style: none;
+}
+
+.buttons{
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    background-color: rgba(214, 208, 208, 0.15);
+    border: 1px solid white;
+    border-radius: 4px;
+    height: 30px;
+    width: 125px;
+    color: rgb(97, 97, 97);
+}
+button:hover{
+    cursor: pointer;
+    border: 1px solid rgb(99, 99, 99);
+}
+
+
+body p{
+    text-align: center;
+    font-size: 11px;
+    margin-top: -10px;
+    
+}
+form{
+    width: 450px;
+    height: 25px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.microphone{
+    position: relative;
+    right: 2em;
+    top: 0.25em;
+    width: 20px;
+    height: 20px;
+}
+
+.microphone:hover{
+    cursor: pointer;
+}
+
+.magnify{
+    position: relative;
+    top: 0.15em;
+    left: 1.5em;
+    width: 12px;
+    height: 12x;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+}
+
+footer a{
+    color:rgb(97, 97, 97);
+    padding-right: 14px;
+}
+.bottom-navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    border-top: 1px solid rgb(242, 242, 242);
+    padding: 5px 5px 5px 0;
+}
+
+span{
+    font-size: 12px;
+    color: rgb(134, 134, 134);
+    padding: 5px 5px 5px 0;
+}
+
+
